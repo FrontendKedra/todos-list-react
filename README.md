@@ -1,6 +1,14 @@
 # Task list
 ## Description
 
+## Site preview
+
+![webscreenshot](%PUBLIC_URL%/sitepreview.png)
+
+## Demo
+
+https://s5zee.github.io/todos-list-react/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
