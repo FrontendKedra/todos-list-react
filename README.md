@@ -3,7 +3,7 @@
 
 ## Site preview
 
-![webscreenshot](%PUBLIC_URL%/sitepreview.png)
+![webscreenshot](public/sitepreview.png)
 
 ## Demo
 
