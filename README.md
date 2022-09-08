@@ -1,5 +1,4 @@
 # Task list
-## Description
 
 ## Site preview
 
@@ -8,6 +7,12 @@
 ## Demo
 
 https://s5zee.github.io/todos-list-react/
+
+## Description
+
+Basic to do list without interactions moved to react
+
+## Additional information
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
