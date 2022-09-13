@@ -1,6 +1,6 @@
 import "./style.css"
 
-const Buttons = ({tasks, hideDoneTasks}) => {
+const Buttons = ({tasks, hideDone}) => {
     if (tasks.lenght === "") {
         return null;
     }
@@ -8,7 +8,7 @@ const Buttons = ({tasks, hideDoneTasks}) => {
     return (
         <div className="containerButtons">
             <button className="containerButtons__button">
-              {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+              {hideDone ? "Pokaż" : "Ukryj"} ukończone
             </button>
 
             <button 
