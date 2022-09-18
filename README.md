@@ -10,7 +10,7 @@ https://s5zee.github.io/todos-list-react/
 
 ## Description
 
-Basic to do list without interactions moved to react
+Basic to do list with interactions
 
 ## Additional information
 
