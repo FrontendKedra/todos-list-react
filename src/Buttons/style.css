@@ -1,11 +1,13 @@
 .containerButtons {
     display: grid;
     grid-template-columns: auto auto;
+    grid-gap: 20px;
 }
 
 @media (max-width: 767px) {
     .containerButtons {
         grid-template-columns: 100%;
+        grid-gap: 0px;
     }
 }
 
@@ -14,8 +16,8 @@
     color: hsl(180, 100%, 25%);
     border: none;
     background-color: white;
-    padding-left: 20px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {
