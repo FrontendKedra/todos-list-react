@@ -14,11 +14,11 @@ export const Header = styled.header`
     margin: 0;
     padding: 20px;
 
-  @media (max-width: 767px) {
-    grid-template-columns: 100%;
-  }
+    @media (max-width: 767px) {
+        grid-template-columns: 100%;
+    }
 `;
 
 export const Title = styled.h2`
     margin: 0;
-  `;
+`;

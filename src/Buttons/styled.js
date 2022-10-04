@@ -24,14 +24,14 @@ export const Button = styled.button`
     }
 
     &:hover {
-    color: hsl(180, 100%, 35%);
+        color: hsl(180, 100%, 35%);
     }
 
-    &active {
-    color: hsl(180, 100%, 45%);
+    &:active {
+        color: hsl(180, 100%, 45%);
     }
 
     &:disabled {
-    color: grey;
+        color: grey;
     }
 `;
