@@ -5,7 +5,7 @@ import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 import { useState } from "react";
-import { useTasks } from "./useTasks"
+import { useTasks } from "./useTasks";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
