@@ -3,19 +3,19 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px;
+    gap: 20px;
 
     @media(max-width: 767px) {
         grid-template-columns: 100%;
-        grid-gap: 0px;
+        gap: 0px;
     }
 `;
 
 export const Button = styled.button`
-    font-size: large;
+    font-size: 18px;
     color: hsl(180, 100%, 25%);
     border: none;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     transition: 0.5s;
     cursor: pointer;
 
@@ -32,6 +32,6 @@ export const Button = styled.button`
     }
 
     &:disabled {
-        color: grey;
+        color: hsl(0, 0%, 50%);
     }
 `;

@@ -7,7 +7,7 @@ export const StyledForm = styled.form`
 
     @media(max-width: 767px) {
         grid-template-columns: 100%;
-        grid-gap: 10px;
+        gap: 10px;
     }
 `;
 
@@ -23,7 +23,7 @@ export const Input = styled.input`
 
 export const Button = styled.button`
     background-color: hsl(180, 100%, 25%);
-    color: #eee;
+    color: hsl(0, 0%, 93%);
     border: none;
     padding: 8px;
     cursor: pointer;

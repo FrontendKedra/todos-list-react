@@ -10,7 +10,7 @@ export const Item = styled.li`
 	padding: 10px;
 	display: grid;
 	grid-template-columns: 30px 1fr 30px;
-	grid-gap: 10px;
+	gap: 10px;
 	align-items: center;
 
     ${({ hidden }) => hidden && css`
@@ -28,7 +28,7 @@ export const Content = styled.span`
 
 export const Button = styled.button`
     background-color: hsl(120, 100%, 25%);
-	color: white;
+	color: hsl(0, 0%, 100%);
 	border: none;
 	display: grid;
 	justify-content: center;
@@ -46,13 +46,13 @@ export const Button = styled.button`
     };
 
     ${({ remove }) => remove && css`
-    background-color: hsl(0, 100%, 50%);
+        background-color: hsl(0, 100%, 50%);
 
-    &:hover {
-        background-color: hsl(0, 100%, 70%);
-    }
-    &:active {
-        background-color: hsl(0, 100%, 80%);
-    }
+        &:hover {
+            background-color: hsl(0, 100%, 70%);
+        }
+        &:active {
+            background-color: hsl(0, 100%, 80%);
+        }
     `}
 `
