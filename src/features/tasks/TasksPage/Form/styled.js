@@ -11,16 +11,6 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const Input = styled.input`
-    padding-left: 5px;
-    margin-right: 15px;
-
-    @media (max-width: 767px) {
-        margin-right: 0;
-        min-height: 4vh;
-    }
-`;
-
 export const Button = styled.button`
     background-color: hsl(180, 100%, 25%);
     color: hsl(0, 0%, 93%);
