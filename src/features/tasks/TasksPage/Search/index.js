@@ -1,6 +1,7 @@
 import { useHistory, useLocation } from "react-router-dom";
 import Input from "../../Input";
 import searchQueryParamName from "../searchQueryParamName";
+import { Wrapper } from "./style";
 
 const Search = () => {
   const location = useLocation();
@@ -19,11 +20,13 @@ const Search = () => {
   };
 
   return (
+    <Wrapper>
     <Input
       placeholder="filtruj zadania"
       value={query || ""}
       onChange={onInputChange}
-    />
+      />
+      </Wrapper>
   );
 };
 export default Search;
