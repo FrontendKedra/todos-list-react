@@ -2,7 +2,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import Input from "../../Input";
 import searchQueryParamName from "../searchQueryParamName";
 
-export default () => {
+const Search = () => {
   const location = useLocation();
   const history = useHistory();
   const query = new URLSearchParams(location.search).get(searchQueryParamName);
@@ -26,3 +26,4 @@ export default () => {
     />
   );
 };
+export default Search;
