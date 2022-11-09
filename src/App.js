@@ -1,23 +1,24 @@
 import TasksPage from "./features/tasks/TasksPage";
 import TaskPage from "./features/tasks/TaskPage";
-import { HashRouter, NavLink, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import AuthorPage from "./features/author/AuthorPage";
+import { StyledNavLink, UnorderedList } from "./styled";
 
 export const App = () => (
   <HashRouter>
     <nav>
-      <ul>
+      <UnorderedList>
         <li>
-          <NavLink activeClassName="active" to="/zadania">
+          <StyledNavLink activeClassName="active" to="/zadania">
             Zadania
-          </NavLink>
+          </StyledNavLink>
         </li>
         <li>
-          <NavLink activeClassName="active" to="/autor">
+          <StyledNavLink activeClassName="active" to="/autor">
             O autorze
-          </NavLink>
+          </StyledNavLink>
         </li>
-      </ul>
+      </UnorderedList>
       <Switch>
         <Route path="/zadania/:id">
           <TaskPage />
