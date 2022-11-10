@@ -18,7 +18,7 @@ import {
 
 function* fetchExampleTasksHandler() {
   try {
-    yield delay(2000);
+    yield delay(1500);
     yield put(exampleTasksSuccess());
     const exampleTasks = yield call(getExampleTasks);
     yield put(setTasks(exampleTasks));
