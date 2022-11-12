@@ -10,7 +10,7 @@ https://s5zee.github.io/todos-list-react/
 
 ## Description
 
-Basic to do list with interactions
+To do list with: filter on tasks, site navigation, example tasks able to be downloaded, author site and navigation to specific task.
 
 ## Additional information
 
