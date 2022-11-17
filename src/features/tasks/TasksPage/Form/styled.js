@@ -18,6 +18,7 @@ export const Button = styled.button`
     padding: 8px;
     cursor: pointer;
     transition: 1s;
+    margin-left: 15px;
     
     &:hover {
         background-color: hsl(180, 100%, 30%);
