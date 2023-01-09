@@ -12,6 +12,15 @@ https://s5zee.github.io/todos-list-react/
 
 To do list with: filter on tasks, site navigation, example tasks able to be downloaded, author site and navigation to specific task.
 
+# Used Technologies: 
+
+- React
+- Redux(toolkit)
+- React Router
+- Styled Components
+- Redux Saga
+- CSS Flexbox/ Grid
+
 ## Additional information
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
