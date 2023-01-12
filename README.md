@@ -6,7 +6,7 @@
 
 ## Demo
 
-https://s5zee.github.io/todos-list-react/
+https://frontendkedra.github.io/todos-list-react/
 
 ## Description
 
