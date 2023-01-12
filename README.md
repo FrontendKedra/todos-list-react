@@ -20,6 +20,8 @@ To do list with: filter on tasks, site navigation, example tasks able to be down
 - Styled Components
 - Redux Saga
 - CSS Flexbox/ Grid
+- NPM
+
 
 ## Additional information
 
