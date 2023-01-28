@@ -20,7 +20,11 @@ To do list with: filter on tasks, site navigation, example tasks able to be down
 - Styled Components
 - Redux Saga
 - CSS Flexbox/ Grid
+- Error handling
+- API(fetch)
 - NPM
+- React hooks
+- async, await
 
 
 ## Additional information
