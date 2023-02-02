@@ -18,14 +18,14 @@ import {
 
 function* fetchExampleTasksHandler() {
   yield delay(1500);
-  
+
   try {
     yield put(exampleTasksSuccess());
     const exampleTasks = yield call(getExampleTasks);
     yield put(setTasks(exampleTasks));
   } catch (error) {
     yield put(exampleTasksError());
-    yield call(alert, "cos poszlo nie tak");
+    yield call(alert, "cos poszlo nie tak, spróbuj ponownie");
   }
 }
 
