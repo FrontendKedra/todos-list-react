@@ -10,7 +10,7 @@ export const useReplaceQueryParameter = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   return ({ key, value }) => {
-    if (!value) {
+    if (value === undefined) {
       searchParams.delete(key);
     } else {
       searchParams.set(key, value);
