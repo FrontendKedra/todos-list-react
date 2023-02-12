@@ -5,7 +5,7 @@ import AuthorPage from "./features/author/AuthorPage";
 import { StyledNavLink, UnorderedList } from "./styled";
 
 export const App = () => (
-  <HashRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <nav>
       <UnorderedList>
         <li>
