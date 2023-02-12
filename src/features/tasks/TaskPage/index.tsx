@@ -5,10 +5,13 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { getTaskById } from "../tasksSlice";
 import { Paragraph } from "../../author/styled";
+import { RootState } from "../../../store";
+import { Id } from "../../../types/interfaces";
 
 const TaskPage = () => {
-  const { id } = useParams();
-  const task = useSelector((state) => getTaskById(state, id));
+  const { id } = useParams<Id>();
+
+  const task = useSelector((state: RootState) => getTaskById(state, id));
   return (
     <Container>
       <Header title="Szczegóły zadania" />
