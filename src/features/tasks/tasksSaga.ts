@@ -6,6 +6,7 @@ import {
   takeLatest,
   delay,
 } from "redux-saga/effects";
+import { Tasks } from "../../types/interfaces";
 import { getExampleTasks } from "./getExampleTasks";
 import { saveTasksInLocalStorage } from "./tasksLocalStorage";
 import {
@@ -21,7 +22,7 @@ function* fetchExampleTasksHandler() {
 
   try {
     yield put(exampleTasksSuccess());
-    const exampleTasks = yield call(getExampleTasks);
+    const exampleTasks: Tasks[] = yield call(getExampleTasks);
     yield put(setTasks(exampleTasks));
   } catch (error) {
     yield put(exampleTasksError());
@@ -30,7 +31,7 @@ function* fetchExampleTasksHandler() {
 }
 
 function* saveTasksInLocalStorageHandler() {
-  const tasks = yield select(selectTasks);
+  const tasks: Tasks[] = yield select(selectTasks);
   yield call(saveTasksInLocalStorage, tasks);
 }
 
