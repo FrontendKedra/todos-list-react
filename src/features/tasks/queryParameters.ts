@@ -1,14 +1,10 @@
 import { useLocation, useHistory } from "react-router-dom";
+import { QueryParameter } from "../../types/interfaces";
 
 export const useQueryParameter = (key: string) => {
   const location = useLocation();
   return new URLSearchParams(location.search).get(key);
 };
-
-interface QueryParameter {
-  key: string;
-  value: string;
-}
 
 export const useReplaceQueryParameter = () => {
   const history = useHistory();

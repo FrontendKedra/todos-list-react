@@ -1,10 +1,5 @@
+import { SectionProps } from "../../types/interfaces";
 import { StyledSection, Header, Title } from "./styled";
-
-interface SectionProps {
-  title: string;
-  body: JSX.Element;
-  extraHeaderContent?: JSX.Element | undefined;
-}
 
 const Section = ({ title, body, extraHeaderContent }: SectionProps) => (
   <StyledSection>
