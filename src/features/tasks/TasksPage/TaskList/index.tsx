@@ -10,7 +10,7 @@ import searchQueryParamName from "../searchQueryParamName";
 import { useQueryParameter } from "../../queryParameters";
 import { RootState } from "../../../../store";
 
-const TaskList = () => {
+const TaskList: React.FC = () => {
   const query = useQueryParameter(searchQueryParamName);
 
   const tasks = useSelector((state: RootState) =>

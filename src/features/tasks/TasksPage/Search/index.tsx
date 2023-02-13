@@ -6,7 +6,7 @@ import {
 import searchQueryParamName from "../searchQueryParamName";
 import { Wrapper } from "./styled";
 
-const Search = () => {
+const Search: React.FC = () => {
   const query = useQueryParameter(searchQueryParamName);
   const replaceQueryParameter = useReplaceQueryParameter();
 

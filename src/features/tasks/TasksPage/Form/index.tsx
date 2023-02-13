@@ -5,7 +5,7 @@ import Input from "../../Input/styled";
 import { addTask } from "../../tasksSlice";
 import { StyledForm, Button } from "./styled";
 
-const Form = () => {
+const Form: React.FC = () => {
   const [newTaskContent, setNewTaskContent] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
 

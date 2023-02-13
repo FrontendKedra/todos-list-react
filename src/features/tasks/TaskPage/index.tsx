@@ -8,7 +8,7 @@ import { Paragraph } from "../../author/styled";
 import { RootState } from "../../../store";
 import { Id } from "../../../types/interfaces";
 
-const TaskPage = () => {
+const TaskPage: React.FC = () => {
   const { id } = useParams<Id>();
 
   const task = useSelector((state: RootState) => getTaskById(state, id));
