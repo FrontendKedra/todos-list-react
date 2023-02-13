@@ -1,7 +1,11 @@
 import { SectionProps } from "../../types/interfaces";
 import { StyledSection, Header, Title } from "./styled";
 
-const Section = ({ title, body, extraHeaderContent }: SectionProps) => (
+const Section: React.FC<SectionProps> = ({
+  title,
+  body,
+  extraHeaderContent,
+}) => (
   <StyledSection>
     <Header>
       <Title>{title}</Title>
