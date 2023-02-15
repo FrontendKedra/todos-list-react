@@ -15,15 +15,16 @@ To do list with: filter on tasks, site navigation, example tasks able to be down
 # Used Technologies: 
 
 - React
+- Typescript
 - Redux(toolkit)
 - React Router
 - Styled Components
 - Redux Saga
+- API(fetch)
 - CSS Flexbox/ Grid
 - Error handling
-- API(fetch)
-- NPM
 - React hooks
+- NPM
 - async, await
 
 
