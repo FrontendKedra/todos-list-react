@@ -1,4 +1,4 @@
-import { Tasks } from "../../types/interfaces";
+import { Tasks } from "../../interfaces/interfaces";
 
 const localStorageKey = "tasks";
 

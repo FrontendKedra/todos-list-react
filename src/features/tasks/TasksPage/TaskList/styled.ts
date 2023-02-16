@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
-import { Done, Remove } from "../../../../types/interfaces";
+import { Done, Remove } from "../../../../interfaces/interfaces";
 
 export const List = styled.ul`
   padding: 20px;

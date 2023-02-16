@@ -1,4 +1,4 @@
-import { SectionProps } from "../../types/interfaces";
+import { SectionProps } from "../../interfaces/interfaces";
 import { StyledSection, Header, Title } from "./styled";
 
 const Section: React.FC<SectionProps> = ({

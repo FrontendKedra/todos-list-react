@@ -6,7 +6,7 @@ import {
   takeLatest,
   delay,
 } from "redux-saga/effects";
-import { Tasks } from "../../types/interfaces";
+import { Tasks } from "../../interfaces/interfaces";
 import { getExampleTasks } from "./getExampleTasks";
 import { saveTasksInLocalStorage } from "./tasksLocalStorage";
 import {

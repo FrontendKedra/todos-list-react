@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Tasks } from "./types/interfaces";
+import { Tasks } from "./interfaces/interfaces";
 
 export const useTasks = () => {
   const tasksFromLocalStorage = localStorage.getItem("tasks");

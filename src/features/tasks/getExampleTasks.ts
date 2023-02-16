@@ -1,4 +1,4 @@
-import { Tasks } from "../../types/interfaces";
+import { Tasks } from "../../interfaces/interfaces";
 
 export const getExampleTasks = async () => {
   const response = await fetch("/todos-list-react/exampleTasks.json");

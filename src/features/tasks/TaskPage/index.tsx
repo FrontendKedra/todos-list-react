@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import { getTaskById } from "../tasksSlice";
 import { Paragraph } from "../../author/styled";
 import { RootState } from "../../../store";
-import { Id } from "../../../types/interfaces";
+import { Id } from "../../../interfaces/interfaces";
 
 const TaskPage: React.FC = () => {
   const { id } = useParams<Id>();

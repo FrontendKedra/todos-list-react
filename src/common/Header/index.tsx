@@ -1,4 +1,4 @@
-import { Title } from "../../types/interfaces";
+import { Title } from "../../interfaces/interfaces";
 
 const Header: React.FC<Title> = ({ title }) => (
   <header>
