@@ -7,7 +7,7 @@ import {
 } from "../../tasksSlice";
 import { Button } from "../../Button/styled";
 
-const Buttons: React.FC = () => {
+const Buttons = () => {
   const { tasks, hideDone } = useSelector(selectTasksState);
   const dispatch = useDispatch();
 

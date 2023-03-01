@@ -6,7 +6,7 @@ import {
   exampleTasksLoading,
 } from "../tasksSlice";
 
-const ExampleTasksButton: React.FC = () => {
+const ExampleTasksButton = () => {
   const dispatch = useDispatch();
   const buttonState = useSelector(selectExampleTasks);
   return (

@@ -1,6 +1,6 @@
 import { Title } from "../../interfaces/interfaces";
 
-const Header: React.FC<Title> = ({ title }) => (
+const Header = ({ title }: Title) => (
   <header>
     <h1>{title}</h1>
   </header>

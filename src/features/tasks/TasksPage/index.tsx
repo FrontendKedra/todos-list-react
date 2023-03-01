@@ -7,7 +7,7 @@ import { Container } from "../../../common/Container/styled";
 import Search from "./Search";
 import ExampleTasksButton from "../ExampleTasksButton";
 
-const TasksPage: React.FC = () => {
+const TasksPage = () => {
   return (
     <Container>
       <Header title="Lista zadań" />

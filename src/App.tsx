@@ -4,7 +4,7 @@ import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import AuthorPage from "./features/author/AuthorPage";
 import { StyledNavLink, UnorderedList } from "./styled";
 
-export const App: React.FC = () => (
+export const App = () => (
   <HashRouter basename={process.env.PUBLIC_URL}>
     <nav>
       <UnorderedList>

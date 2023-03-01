@@ -3,7 +3,7 @@ import Section from "../../common/Section";
 import { Container } from "../../common/Container/styled";
 import { Paragraph } from "./styled";
 
-const AuthorPage: React.FC = () => (
+const AuthorPage = () => (
   <Container>
     <Header title="O autorze" />
     <Section
