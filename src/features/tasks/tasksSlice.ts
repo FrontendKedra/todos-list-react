@@ -25,7 +25,7 @@ const tasksSlice = createSlice({
       tasks.splice(index, 1);
     },
     setAllDone: ({ tasks }) => {
-      tasks.map((task) => (task.done = true));
+      tasks.map(({ done }) => (done = true));
     },
     fetchExampleTasks: () => {},
     setTasks: (state, { payload: tasks }) => {
